@@ -166,7 +166,7 @@ void rbtree_ins(int val)
 	memset(n , 0 , sizeof(rbtree_node));
 	n->data = val;
 	n->c = RED;
-//	n->p = n->l = n->r = &NIL;
+	//n->p = n->l = n->r = &NIL;
 	
 	cur = root;
 	while(cur) {
@@ -211,7 +211,6 @@ int main()
 	}
 	printf("\n");
 
-	setbuf(stdout , NULL);
 	for(i = 0; i < sizeof(data)/sizeof(int); i++)
 	{
 		printf("[%d]\t" , root ? root->data : -1);
