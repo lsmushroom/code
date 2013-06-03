@@ -6,7 +6,7 @@ int add(int a , int b)
 	int i , res = 0 , tmp = 0;
 	int mask = 0;
 
-
+	printf("%s::%d\n", __FUNCTION__ , __LINE__);
 
 	for(i = 0; i < sizeof(int)*8 ; i++ , tmp = 0 , mask = 0)
 	{
