@@ -8,6 +8,7 @@ int add(int a , int b)
 
 	printf("%s::%d\n", __FUNCTION__ , __LINE__);
 	printf("%s::%d , hahah\n", __FUNCTION__ , __LINE__);
+	printf("%s::%d , hahah\n", __FUNCTION__ , __LINE__);
 
 	for(i = 0; i < sizeof(int)*8 ; i++ , tmp = 0 , mask = 0)
 	{
