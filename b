@@ -1,5 +1,3 @@
 b
 cccc
 newfile
-
-mergetest
